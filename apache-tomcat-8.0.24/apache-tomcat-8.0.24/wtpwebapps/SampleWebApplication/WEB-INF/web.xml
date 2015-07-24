@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>SampleWebApplication</display-name>
+  <servlet>
+    <servlet-name>SampleWeb Application</servlet-name>
+    <servlet-class>com.Servlet.org.XMLServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SampleWeb Application</servlet-name>
+    <url-pattern>/SampleWebApp</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DogetMethod</servlet-name>
+    <servlet-class>com.Servlet.org.DoPostMethod</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DogetMethod</servlet-name>
+    <url-pattern>/DogetFormMethodd</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Moreprama</servlet-name>
+    <servlet-class>com.Servlet.org.MoreParameters</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Moreprama</servlet-name>
+    <url-pattern>/MoreParameters</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Doget</servlet-name>
+    <servlet-class>com.Servlet.org.Session</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Doget</servlet-name>
+    <url-pattern>/DogetMethodSession</url-pattern>
+  </servlet-mapping>
+</web-app>
